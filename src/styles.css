@@ -1,1 +1,135 @@
-/* You can add global styles to this file, and also import other style files */
+/** Global Styles*/
+body{
+  font-family: Georgia, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+background-color: #2c5545;
+}
+
+/* Logo */
+.navbar-brand img {
+max-width: 250px; 
+height: auto;
+}
+
+/* Navbar Items */
+.nav-item .nav-link {
+font-size: 1.2rem;
+font-weight: 500;
+color: white;
+transition: color 0.3s ease;
+}
+
+/* Hover Effect on Navbar Links */
+.nav-item .nav-link:hover {
+color: #eee;
+}
+
+/* Navbar Collapse */
+.navbar-collapse {
+justify-content: center;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 991px) {
+.navbar-nav {
+text-align: center;
+}
+}
+
+/* About Section Styles */
+
+p {
+  text-align: justify;
+}
+
+.about-img {
+  border: 5px solid #2c5545;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+} 
+
+/* General Styling for the Recipes Section */
+.container {
+  margin-top: 50px;
+}
+
+
+.recipe-card {
+  background-color: #fff;
+  border-radius: 15px;
+  transition: transform 1s ease, box-shadow 0.3s ease;
+}
+
+.recipe-img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 1.3s ease;
+}
+
+/* Recipe Card Hover Effect */
+.recipe-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-img:hover {
+  transform: scale(1.05);
+}
+
+/* Recipe Title Styling */
+.recipe-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #2c5545;
+  margin-bottom: 15px;
+}
+
+/* Recipe Description Styling */
+.recipe-description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #6c757d;
+}
+
+/* Ingredients and Instructions List */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 0.95rem;
+  color: #495057;
+}
+
+ul li strong {
+  color: #2c5545;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 767px) {
+  .recipe-title {
+    font-size: 1.2rem;
+  }
+  
+  .recipe-description {
+    font-size: 0.9rem;
+  }
+
+  ul li {
+    font-size: 0.85rem;
+  }
+}
+
+
+.text{
+  color: #eaecea;
+} 
