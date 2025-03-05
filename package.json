@@ -1,6 +1,20 @@
 {
   "name": "bootstrap",
   "version": "0.0.0",
+  "private": true,
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.",
+  "homepage": "https://github.com/h0neybie/2199-ACD-PRELIM-LAB-ACT-3-bootstrap#readme",
+  "bugs": {
+    "url": "https://github.com/h0neybie/2199-ACD-PRELIM-LAB-ACT-3-bootstrap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h0neybie/2199-ACD-PRELIM-LAB-ACT-3-bootstrap.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +22,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^18.2.0",
     "@angular/common": "^18.2.0",
